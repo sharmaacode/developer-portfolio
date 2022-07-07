@@ -17,6 +17,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -42,15 +43,6 @@ section {
     background-repeat: no-repeat;
 }
 
-.half-width2 {
-    width: 50%;
-    padding-right: 7%;
-}
-
-.half-width2 img {
-    width: 100%;
-}
-
 .resume-button {
     text-decoration: none;
     background-image: linear-gradient(orange, #ff7300);
@@ -58,4 +50,19 @@ section {
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half-width2 {
+    width: 50%;
+    padding-right: 10%;
+}
+
+.half-width2 img {
+    width: 100%;
 }
